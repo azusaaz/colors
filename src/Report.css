@@ -1,0 +1,11 @@
+.Report{
+
+}
+
+.report-line{
+  font-size: 1.2rem;
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto;
+}

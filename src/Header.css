@@ -1,0 +1,11 @@
+.Header {
+}
+
+.tabs {
+  display: flex;
+
+}
+
+.tabs>div {
+  margin: 1rem;
+}
