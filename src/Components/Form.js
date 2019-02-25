@@ -135,7 +135,6 @@ const Form = ({input, colors, setInput, setColors, setCurrentPage}) => {
           </div>
       </div>
     );
-  }
-
+  };
 
 export default Form;

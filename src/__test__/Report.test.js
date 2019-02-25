@@ -7,13 +7,13 @@ import Report from '../Components/Report';
 configure({adapter: new Adapter()});
 
 it('expect render a report with passed props', () => {
-  const testColors = {
-  BLACK: 5,
+  const colors = {
+  BLACK: 10,
   BLUE: 0,
   RED: 0,
   GREEN:0
 }
 
-expect(shallow(<Report colors={testColors}/>)).toMatchSnapshot();
+expect(shallow(<Report colors={colors}/>)).toMatchSnapshot();
 
 });

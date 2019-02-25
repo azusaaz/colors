@@ -6,7 +6,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Report
     colors={
       Object {
-        "BLACK": 5,
+        "BLACK": 10,
         "BLUE": 0,
         "GREEN": 0,
         "RED": 0,
@@ -31,16 +31,32 @@ ShallowWrapper {
         <div
           className="report-line"
         >
+          <span
+            className="diamond"
+            style={
+              Object {
+                "backgroundColor": "BLACK",
+              }
+            }
+          />
           <span>
             BLACK
           </span>
           <span>
-            5
+            10
           </span>
         </div>,
         <div
           className="report-line"
         >
+          <span
+            className="diamond"
+            style={
+              Object {
+                "backgroundColor": "BLUE",
+              }
+            }
+          />
           <span>
             BLUE
           </span>
@@ -51,6 +67,14 @@ ShallowWrapper {
         <div
           className="report-line"
         >
+          <span
+            className="diamond"
+            style={
+              Object {
+                "backgroundColor": "RED",
+              }
+            }
+          />
           <span>
             RED
           </span>
@@ -61,6 +85,14 @@ ShallowWrapper {
         <div
           className="report-line"
         >
+          <span
+            className="diamond"
+            style={
+              Object {
+                "backgroundColor": "GREEN",
+              }
+            }
+          />
           <span>
             GREEN
           </span>
@@ -75,15 +107,23 @@ ShallowWrapper {
     "rendered": Array [
       Object {
         "instance": null,
-        "key": "qyiVelQWE",
+        "key": "BLACK",
         "nodeType": "host",
         "props": Object {
           "children": Array [
+            <span
+              className="diamond"
+              style={
+                Object {
+                  "backgroundColor": "BLACK",
+                }
+              }
+            />,
             <span>
               BLACK
             </span>,
             <span>
-              5
+              10
             </span>,
           ],
           "className": "report-line",
@@ -92,7 +132,21 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": "d_Ht0SgiEz",
+            "key": "BLACK",
+            "nodeType": "host",
+            "props": Object {
+              "className": "diamond",
+              "style": Object {
+                "backgroundColor": "BLACK",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": "BLACK",
             "nodeType": "host",
             "props": Object {
               "children": "BLACK",
@@ -103,13 +157,13 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "91woq1LkgH",
+            "key": "BLACK",
             "nodeType": "host",
             "props": Object {
-              "children": 5,
+              "children": 10,
             },
             "ref": null,
-            "rendered": 5,
+            "rendered": 10,
             "type": "span",
           },
         ],
@@ -117,10 +171,18 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": "GeiAvl-JVQ",
+        "key": "BLUE",
         "nodeType": "host",
         "props": Object {
           "children": Array [
+            <span
+              className="diamond"
+              style={
+                Object {
+                  "backgroundColor": "BLUE",
+                }
+              }
+            />,
             <span>
               BLUE
             </span>,
@@ -134,7 +196,21 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": "VI5x_Bcdmw",
+            "key": "BLUE",
+            "nodeType": "host",
+            "props": Object {
+              "className": "diamond",
+              "style": Object {
+                "backgroundColor": "BLUE",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": "BLUE",
             "nodeType": "host",
             "props": Object {
               "children": "BLUE",
@@ -145,7 +221,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "D88KoX9Yiu",
+            "key": "BLUE",
             "nodeType": "host",
             "props": Object {
               "children": 0,
@@ -159,10 +235,18 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": "_aB-xLczTw",
+        "key": "RED",
         "nodeType": "host",
         "props": Object {
           "children": Array [
+            <span
+              className="diamond"
+              style={
+                Object {
+                  "backgroundColor": "RED",
+                }
+              }
+            />,
             <span>
               RED
             </span>,
@@ -176,7 +260,21 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": "nv2ZbTnSRF",
+            "key": "RED",
+            "nodeType": "host",
+            "props": Object {
+              "className": "diamond",
+              "style": Object {
+                "backgroundColor": "RED",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": "RED",
             "nodeType": "host",
             "props": Object {
               "children": "RED",
@@ -187,7 +285,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "z61-JN-cmO",
+            "key": "RED",
             "nodeType": "host",
             "props": Object {
               "children": 0,
@@ -201,10 +299,18 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": "KOMPIYJTD-",
+        "key": "GREEN",
         "nodeType": "host",
         "props": Object {
           "children": Array [
+            <span
+              className="diamond"
+              style={
+                Object {
+                  "backgroundColor": "GREEN",
+                }
+              }
+            />,
             <span>
               GREEN
             </span>,
@@ -218,7 +324,21 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": "uqb7Yy7FSW",
+            "key": "GREEN",
+            "nodeType": "host",
+            "props": Object {
+              "className": "diamond",
+              "style": Object {
+                "backgroundColor": "GREEN",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": "GREEN",
             "nodeType": "host",
             "props": Object {
               "children": "GREEN",
@@ -229,7 +349,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "qfGjNP7S1K",
+            "key": "GREEN",
             "nodeType": "host",
             "props": Object {
               "children": 0,
@@ -254,16 +374,32 @@ ShallowWrapper {
           <div
             className="report-line"
           >
+            <span
+              className="diamond"
+              style={
+                Object {
+                  "backgroundColor": "BLACK",
+                }
+              }
+            />
             <span>
               BLACK
             </span>
             <span>
-              5
+              10
             </span>
           </div>,
           <div
             className="report-line"
           >
+            <span
+              className="diamond"
+              style={
+                Object {
+                  "backgroundColor": "BLUE",
+                }
+              }
+            />
             <span>
               BLUE
             </span>
@@ -274,6 +410,14 @@ ShallowWrapper {
           <div
             className="report-line"
           >
+            <span
+              className="diamond"
+              style={
+                Object {
+                  "backgroundColor": "RED",
+                }
+              }
+            />
             <span>
               RED
             </span>
@@ -284,6 +428,14 @@ ShallowWrapper {
           <div
             className="report-line"
           >
+            <span
+              className="diamond"
+              style={
+                Object {
+                  "backgroundColor": "GREEN",
+                }
+              }
+            />
             <span>
               GREEN
             </span>
@@ -298,15 +450,23 @@ ShallowWrapper {
       "rendered": Array [
         Object {
           "instance": null,
-          "key": "qyiVelQWE",
+          "key": "BLACK",
           "nodeType": "host",
           "props": Object {
             "children": Array [
+              <span
+                className="diamond"
+                style={
+                  Object {
+                    "backgroundColor": "BLACK",
+                  }
+                }
+              />,
               <span>
                 BLACK
               </span>,
               <span>
-                5
+                10
               </span>,
             ],
             "className": "report-line",
@@ -315,7 +475,21 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": "d_Ht0SgiEz",
+              "key": "BLACK",
+              "nodeType": "host",
+              "props": Object {
+                "className": "diamond",
+                "style": Object {
+                  "backgroundColor": "BLACK",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": "BLACK",
               "nodeType": "host",
               "props": Object {
                 "children": "BLACK",
@@ -326,13 +500,13 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "91woq1LkgH",
+              "key": "BLACK",
               "nodeType": "host",
               "props": Object {
-                "children": 5,
+                "children": 10,
               },
               "ref": null,
-              "rendered": 5,
+              "rendered": 10,
               "type": "span",
             },
           ],
@@ -340,10 +514,18 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "GeiAvl-JVQ",
+          "key": "BLUE",
           "nodeType": "host",
           "props": Object {
             "children": Array [
+              <span
+                className="diamond"
+                style={
+                  Object {
+                    "backgroundColor": "BLUE",
+                  }
+                }
+              />,
               <span>
                 BLUE
               </span>,
@@ -357,7 +539,21 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": "VI5x_Bcdmw",
+              "key": "BLUE",
+              "nodeType": "host",
+              "props": Object {
+                "className": "diamond",
+                "style": Object {
+                  "backgroundColor": "BLUE",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": "BLUE",
               "nodeType": "host",
               "props": Object {
                 "children": "BLUE",
@@ -368,7 +564,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "D88KoX9Yiu",
+              "key": "BLUE",
               "nodeType": "host",
               "props": Object {
                 "children": 0,
@@ -382,10 +578,18 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "_aB-xLczTw",
+          "key": "RED",
           "nodeType": "host",
           "props": Object {
             "children": Array [
+              <span
+                className="diamond"
+                style={
+                  Object {
+                    "backgroundColor": "RED",
+                  }
+                }
+              />,
               <span>
                 RED
               </span>,
@@ -399,7 +603,21 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": "nv2ZbTnSRF",
+              "key": "RED",
+              "nodeType": "host",
+              "props": Object {
+                "className": "diamond",
+                "style": Object {
+                  "backgroundColor": "RED",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": "RED",
               "nodeType": "host",
               "props": Object {
                 "children": "RED",
@@ -410,7 +628,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "z61-JN-cmO",
+              "key": "RED",
               "nodeType": "host",
               "props": Object {
                 "children": 0,
@@ -424,10 +642,18 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "KOMPIYJTD-",
+          "key": "GREEN",
           "nodeType": "host",
           "props": Object {
             "children": Array [
+              <span
+                className="diamond"
+                style={
+                  Object {
+                    "backgroundColor": "GREEN",
+                  }
+                }
+              />,
               <span>
                 GREEN
               </span>,
@@ -441,7 +667,21 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": "uqb7Yy7FSW",
+              "key": "GREEN",
+              "nodeType": "host",
+              "props": Object {
+                "className": "diamond",
+                "style": Object {
+                  "backgroundColor": "GREEN",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": "GREEN",
               "nodeType": "host",
               "props": Object {
                 "children": "GREEN",
@@ -452,7 +692,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "qfGjNP7S1K",
+              "key": "GREEN",
               "nodeType": "host",
               "props": Object {
                 "children": 0,
