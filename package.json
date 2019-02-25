@@ -1,5 +1,5 @@
 {
-  "name": "coding-exercise",
+  "name": "colors",
   "jest": {
     "automock": false,
     "browser": true,
