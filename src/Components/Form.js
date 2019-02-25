@@ -65,7 +65,7 @@ const Form = ({input, colors, setInput, setColors, setCurrentPage}) => {
       let message = document.getElementById("color-error");
       let colorList = Object.keys(colors);
 
-      if (!color === "") {
+      if (color === "") {
         message.innerHTML = "favorite color is required";
 
       } else if (!color.match(/^[A-Z]+$/)) {
