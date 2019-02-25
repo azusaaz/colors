@@ -18,7 +18,7 @@ class App extends Component {
         color: '',
       },
       colors: {
-        BLACK: 2,
+        BLACK: 0,
         BLUE: 0,
         RED: 0,
         GREEN:0
@@ -26,8 +26,15 @@ class App extends Component {
     };
   }
 
-  render() {
+  componentWillMount(){
+    // retrieve local storage data for report
+    var record  = localStorage.getItem('colorRecord');
+    if(record){
+      this.setState({colors:JSON.parse(record)})
+    }
+  }
 
+  render() {
 
     return (
       <div className="App">

@@ -79,16 +79,25 @@ const Form = ({input, colors, setInput, setColors }) => {
 
     // handle form input and update state
     let handleSubmit = (event) => {
-      var data = input;
+      let data = input;
 
-       emailValidation(data.email.trim());
-       phoneValidation(data.phone.trim());
-       colorValidation(data.color.trim());
+      let validation1 = emailValidation(data.email.trim());
+      let validation2 = phoneValidation(data.phone.trim());
+      let validation3 = colorValidation(data.color.trim());
        
-      if (emailValidation(data.email.trim()) && phoneValidation(data.phone.trim()) && colorValidation(data.color.trim())) {
+      if (validation1 && validation2 && validation3) {
 
-        console.log("pass! save data ")
+        // Count up
+        let newColors = colors;
+        newColors[data.color.trim()]++;
 
+        // Save data to a local storage
+        var setJson = JSON.stringify(newColors);
+        localStorage.setItem('colorRecord', setJson);
+    
+        // Update state
+        var record  = localStorage.getItem('colorRecord');
+        setColors(JSON.parse(record));
       }
     }
 
