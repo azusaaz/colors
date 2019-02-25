@@ -1,0 +1,493 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect render a report with passed props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Report
+    colors={
+      Object {
+        "BLACK": 5,
+        "BLUE": 0,
+        "GREEN": 0,
+        "RED": 0,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="report-line"
+        >
+          <span>
+            BLACK
+          </span>
+          <span>
+            5
+          </span>
+        </div>,
+        <div
+          className="report-line"
+        >
+          <span>
+            BLUE
+          </span>
+          <span>
+            0
+          </span>
+        </div>,
+        <div
+          className="report-line"
+        >
+          <span>
+            RED
+          </span>
+          <span>
+            0
+          </span>
+        </div>,
+        <div
+          className="report-line"
+        >
+          <span>
+            GREEN
+          </span>
+          <span>
+            0
+          </span>
+        </div>,
+      ],
+      "className": "Report",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "qyiVelQWE",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              BLACK
+            </span>,
+            <span>
+              5
+            </span>,
+          ],
+          "className": "report-line",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "d_Ht0SgiEz",
+            "nodeType": "host",
+            "props": Object {
+              "children": "BLACK",
+            },
+            "ref": null,
+            "rendered": "BLACK",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": "91woq1LkgH",
+            "nodeType": "host",
+            "props": Object {
+              "children": 5,
+            },
+            "ref": null,
+            "rendered": 5,
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "GeiAvl-JVQ",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              BLUE
+            </span>,
+            <span>
+              0
+            </span>,
+          ],
+          "className": "report-line",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "VI5x_Bcdmw",
+            "nodeType": "host",
+            "props": Object {
+              "children": "BLUE",
+            },
+            "ref": null,
+            "rendered": "BLUE",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": "D88KoX9Yiu",
+            "nodeType": "host",
+            "props": Object {
+              "children": 0,
+            },
+            "ref": null,
+            "rendered": 0,
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "_aB-xLczTw",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              RED
+            </span>,
+            <span>
+              0
+            </span>,
+          ],
+          "className": "report-line",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "nv2ZbTnSRF",
+            "nodeType": "host",
+            "props": Object {
+              "children": "RED",
+            },
+            "ref": null,
+            "rendered": "RED",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": "z61-JN-cmO",
+            "nodeType": "host",
+            "props": Object {
+              "children": 0,
+            },
+            "ref": null,
+            "rendered": 0,
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "KOMPIYJTD-",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              GREEN
+            </span>,
+            <span>
+              0
+            </span>,
+          ],
+          "className": "report-line",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "uqb7Yy7FSW",
+            "nodeType": "host",
+            "props": Object {
+              "children": "GREEN",
+            },
+            "ref": null,
+            "rendered": "GREEN",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": "qfGjNP7S1K",
+            "nodeType": "host",
+            "props": Object {
+              "children": 0,
+            },
+            "ref": null,
+            "rendered": 0,
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="report-line"
+          >
+            <span>
+              BLACK
+            </span>
+            <span>
+              5
+            </span>
+          </div>,
+          <div
+            className="report-line"
+          >
+            <span>
+              BLUE
+            </span>
+            <span>
+              0
+            </span>
+          </div>,
+          <div
+            className="report-line"
+          >
+            <span>
+              RED
+            </span>
+            <span>
+              0
+            </span>
+          </div>,
+          <div
+            className="report-line"
+          >
+            <span>
+              GREEN
+            </span>
+            <span>
+              0
+            </span>
+          </div>,
+        ],
+        "className": "Report",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "qyiVelQWE",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                BLACK
+              </span>,
+              <span>
+                5
+              </span>,
+            ],
+            "className": "report-line",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "d_Ht0SgiEz",
+              "nodeType": "host",
+              "props": Object {
+                "children": "BLACK",
+              },
+              "ref": null,
+              "rendered": "BLACK",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": "91woq1LkgH",
+              "nodeType": "host",
+              "props": Object {
+                "children": 5,
+              },
+              "ref": null,
+              "rendered": 5,
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "GeiAvl-JVQ",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                BLUE
+              </span>,
+              <span>
+                0
+              </span>,
+            ],
+            "className": "report-line",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "VI5x_Bcdmw",
+              "nodeType": "host",
+              "props": Object {
+                "children": "BLUE",
+              },
+              "ref": null,
+              "rendered": "BLUE",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": "D88KoX9Yiu",
+              "nodeType": "host",
+              "props": Object {
+                "children": 0,
+              },
+              "ref": null,
+              "rendered": 0,
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "_aB-xLczTw",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                RED
+              </span>,
+              <span>
+                0
+              </span>,
+            ],
+            "className": "report-line",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "nv2ZbTnSRF",
+              "nodeType": "host",
+              "props": Object {
+                "children": "RED",
+              },
+              "ref": null,
+              "rendered": "RED",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": "z61-JN-cmO",
+              "nodeType": "host",
+              "props": Object {
+                "children": 0,
+              },
+              "ref": null,
+              "rendered": 0,
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "KOMPIYJTD-",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                GREEN
+              </span>,
+              <span>
+                0
+              </span>,
+            ],
+            "className": "report-line",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "uqb7Yy7FSW",
+              "nodeType": "host",
+              "props": Object {
+                "children": "GREEN",
+              },
+              "ref": null,
+              "rendered": "GREEN",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": "qfGjNP7S1K",
+              "nodeType": "host",
+              "props": Object {
+                "children": 0,
+              },
+              "ref": null,
+              "rendered": 0,
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

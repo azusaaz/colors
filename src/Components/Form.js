@@ -65,13 +65,15 @@ const Form = ({input, colors, setInput, setColors, setCurrentPage}) => {
       let message = document.getElementById("color-error");
       let colorList = Object.keys(colors);
 
-      if (color === "") {
+      if (!color === "") {
         message.innerHTML = "favorite color is required";
+
       } else if (!color.match(/^[A-Z]+$/)) {
-        message.innerHTML = "Colors must contain only uppercase alphabets";
+        message.innerHTML = "Colors must contain only <br /> uppercase alphabets";
 
       } else if (!colorList.includes(color)) {
         message.innerHTML = "Please choose from <br /> " + colorList.join(', ');
+
       } else {
         return true;
       }
@@ -108,21 +110,21 @@ const Form = ({input, colors, setInput, setColors, setCurrentPage}) => {
          <div className="form-field">
             <label>Email</label>
             <div>
-              <input className="email" name= "email" placeholder="Enter email" onChange={handleChange} autoFocus/>
+              <input id="email" name= "email" placeholder="Enter email" onChange={handleChange} autoFocus/>
               <div className="error-message" id="email-error"></div>
             </div>
          </div>
          <div className="form-field">
             <label>Phone number</label>
             <div>
-              <input className="phone" name= "phone" placeholder="Enter email" onChange={handleChange} />
+              <input id="phone" name= "phone" placeholder="Enter email" onChange={handleChange} />
               <div className="error-message" id="phone-error"></div>
             </div>
          </div>
          <div className="form-field">
             <label>Favorite Color</label>
             <div>
-              <input className="favorite" name= "color" placeholder="Enter email" onChange={handleChange} />
+              <input id="favorite" name= "color" placeholder="Enter email" onChange={handleChange} />
               <div className="error-message" id="color-error"></div>
             </div>
          </div>
