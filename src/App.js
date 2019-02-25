@@ -11,6 +11,12 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      currentPage: 'form',
+      input:{
+        email: '',
+        phone: '',
+        color: '',
+      },
       colors: {
         BLACK: 2,
         BLUE: 0,
@@ -21,10 +27,17 @@ class App extends Component {
   }
 
   render() {
+
+
     return (
       <div className="App">
         <Header />
-        <Form />
+        <Form 
+          input={this.state.input}
+          colors={this.state.colors}
+          setInput={input => this.setState({ input })}
+          setColors={colors => this.setState({ colors })}
+          />
         <Report colors={this.state.colors} />
       </div>
     );
