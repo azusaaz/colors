@@ -1,8 +1,27 @@
 {
   "name": "coding-exercise",
+  "jest": {
+    "automock": false,
+    "browser": true,
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "./app/tests/mocks/FileMock.js",
+      "\\.(css|less)$": "identity-obj-proxy"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleDirectories": [
+      "node_modules"
+    ],
+    "verbose": true
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5",
@@ -11,7 +30,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest",
+    "test": "jest --watchAll",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -24,6 +43,13 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "jest": "^24.1.0"
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-jest": "23.6.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.9.1"
+  },
+  "transform": {
+    "\\.js$": "<rootDir>/node_modules/babel-jest"
   }
 }
