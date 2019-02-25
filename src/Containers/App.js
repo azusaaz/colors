@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import Header from '../Components/Header.js';
 import Form from '../Components/Form.js';
 import Report from '../Components/Report.js';
