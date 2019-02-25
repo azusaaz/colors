@@ -6,6 +6,10 @@
 
 }
 
-.tabs>div {
+.tab {
   margin: 1rem;
+}
+
+.tab:hover{
+  cursor: pointer;
 }

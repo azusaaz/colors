@@ -34,18 +34,34 @@ class App extends Component {
     }
   }
 
+  setCurrentPage=(page)=>{
+    this.setState({currentPage: page});
+  }
+
   render() {
+
+    const form = this.state.currentPage ==='form'?
+    <Form 
+      input={this.state.input}
+      colors={this.state.colors}
+      setInput={input => this.setState({ input })}
+      setColors={colors => this.setState({ colors })}
+      setCurrentPage={this.setCurrentPage}
+    />:null;  
+    
+    const report = this.state.currentPage ==='report'?
+    <Report
+      colors={this.state.colors} 
+    />:null
 
     return (
       <div className="App">
-        <Header />
-        <Form 
-          input={this.state.input}
-          colors={this.state.colors}
-          setInput={input => this.setState({ input })}
-          setColors={colors => this.setState({ colors })}
-          />
-        <Report colors={this.state.colors} />
+        <Header 
+        currentPage={this.state.currentPage}
+        setCurrentPage={this.setCurrentPage}
+        />
+        {form}
+        {report}
       </div>
     );
   }

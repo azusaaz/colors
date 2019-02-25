@@ -1,7 +1,7 @@
 import React from 'react';
 import './Form.css';
 
-const Form = ({input, colors, setInput, setColors }) => {
+const Form = ({input, colors, setInput, setColors, setCurrentPage}) => {
 
     // handle form input and update state
     let handleChange = (event) => {
@@ -98,6 +98,7 @@ const Form = ({input, colors, setInput, setColors }) => {
         // Update state
         var record  = localStorage.getItem('colorRecord');
         setColors(JSON.parse(record));
+        setCurrentPage('report');
       }
     }
 
