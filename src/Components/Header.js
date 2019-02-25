@@ -15,6 +15,7 @@ const Header = ({currentPage, setCurrentPage}) => {
 
     return (
       <div className="Header">
+
         <div className="tabs">
 
          <div className="tab" id="tab-form" data-name="form" onClick={onClick} 
@@ -23,6 +24,11 @@ const Header = ({currentPage, setCurrentPage}) => {
          <div className="tab" id="tab-report" data-name="report" onClick={onClick} 
          style={!record ? disable : currentPage === 'report' ? bold : null}>Report</div>
 
+        </div>
+
+        <div id="navRight">
+          <img id="dia" src="dia.png" alt=""/>
+          <div id="siteName">colors</div>
         </div>
       </div>
     );

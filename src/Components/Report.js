@@ -9,6 +9,7 @@ const Report = ({colors}) => {
    for(let color in colors){
       report.push(
       <div className="report-line" key={shortid.generate()}>
+        <span className="diamond" style={{backgroundColor: color}} key={shortid.generate()}></span>
         <span key={shortid.generate()}>{color}</span>
         <span key={shortid.generate()}>{colors[color]}</span>
       </div>

@@ -16,16 +16,6 @@ it('expect to render Header component',() =>{
   expect(shallow(<Header currentPage={testCurrentPage}/>)).toMatchSnapshot();
 })
 
-// it('expect to render Header component',() =>{
-
-//   const mockProps = {
-//     currentPage:'form',
-//     setCurrentPage: jest.fn()
-//   }
-//   let testCurrentPage= 'form'
-//   expect(shallow(<Header { ...mockProps}/>)).toMatchSnapshot();
-// })
-
 
 const clickFn = jest.fn();
 

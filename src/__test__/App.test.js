@@ -9,10 +9,6 @@ import Report from '../Components/Report';
 
 configure({adapter: new Adapter()});
 
-
-
-
-
 it('Header and Form page appear at the initial', () => {
 
   const wrapper = shallow(<App />);

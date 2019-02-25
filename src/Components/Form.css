@@ -1,19 +1,14 @@
 
 .Form{
-  /* display: flex;
-  flex-direction: column; */
-  margin-top: 1rem;
+  margin-top: 4rem;
+}
 
-  /* background-color: red; */
-}
-.form-content{
-  /* background-color: blue; */
-}
 .form-field{
   
   display: flex;
   justify-content: center;
   padding: 0.5rem 3rem; 
+  
 }
 
 label{
@@ -22,12 +17,26 @@ label{
   text-align: right;
 }
 
+.form-field input{
+  width: 10rem;
+}
+
 .error-message{
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   color: red;
   text-align: center;
+  margin-top: 0.3rem;
 }
 
 #submit-btn{
-  margin-left: 12rem;
+  margin-top: 1.2rem;
+  font-size: 1.0rem;
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.5rem;
+}
+
+#submit-btn:hover{
+  cursor: pointer;
+  background-color: #bbb;
+
 }

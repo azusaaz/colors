@@ -110,21 +110,21 @@ const Form = ({input, colors, setInput, setColors, setCurrentPage}) => {
          <div className="form-field">
             <label>Email</label>
             <div>
-              <input id="email" name= "email" placeholder="Enter email" onChange={handleChange} autoFocus/>
+              <input id="email" name= "email" placeholder="ex. example@aaa.com" onChange={handleChange} autoFocus/>
               <div className="error-message" id="email-error"></div>
             </div>
          </div>
          <div className="form-field">
             <label>Phone number</label>
             <div>
-              <input id="phone" name= "phone" placeholder="Enter email" onChange={handleChange} />
+              <input id="phone" name= "phone" placeholder="ex. +1 XXX XXX XX XX" onChange={handleChange} />
               <div className="error-message" id="phone-error"></div>
             </div>
          </div>
          <div className="form-field">
             <label>Favorite Color</label>
             <div>
-              <input id="favorite" name= "color" placeholder="Enter email" onChange={handleChange} />
+              <input id="favorite" name= "color" placeholder="ex. BLACK" onChange={handleChange} />
               <div className="error-message" id="color-error"></div>
             </div>
          </div>
