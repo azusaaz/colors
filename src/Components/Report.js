@@ -10,8 +10,8 @@ const Report = ({colors}) => {
       report.push(
       <div className="report-line" key={color}>
         <span className="diamond" style={{backgroundColor: color}} key={color}></span>
-        <span key={color}>{color}</span>
-        <span key={color}>{colors[color]}</span>
+        <span key={color+1}>{color}</span>
+        <span key={color+-1}>{colors[color]}</span>
       </div>
       )
    }
