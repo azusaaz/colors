@@ -1,5 +1,419 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`expect to match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header
+    currentPage="form"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="tabs"
+        >
+          <div
+            className="tab"
+            data-name="form"
+            id="tab-form"
+            onClick={[Function]}
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Form
+          </div>
+          <div
+            className="tab"
+            data-name="report"
+            id="tab-report"
+            onClick={[Function]}
+            style={
+              Object {
+                "opacity": 0.5,
+                "pointerEvents": "none",
+              }
+            }
+          >
+            Report
+          </div>
+        </div>,
+        <div
+          id="navRight"
+        >
+          <img
+            alt=""
+            id="dia"
+            src="dia.png"
+          />
+          <div
+            id="siteName"
+          >
+            colors
+          </div>
+        </div>,
+      ],
+      "className": "Header",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="tab"
+              data-name="form"
+              id="tab-form"
+              onClick={[Function]}
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Form
+            </div>,
+            <div
+              className="tab"
+              data-name="report"
+              id="tab-report"
+              onClick={[Function]}
+              style={
+                Object {
+                  "opacity": 0.5,
+                  "pointerEvents": "none",
+                }
+              }
+            >
+              Report
+            </div>,
+          ],
+          "className": "tabs",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Form",
+              "className": "tab",
+              "data-name": "form",
+              "id": "tab-form",
+              "onClick": [Function],
+              "style": Object {
+                "fontWeight": "bold",
+              },
+            },
+            "ref": null,
+            "rendered": "Form",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Report",
+              "className": "tab",
+              "data-name": "report",
+              "id": "tab-report",
+              "onClick": [Function],
+              "style": Object {
+                "opacity": 0.5,
+                "pointerEvents": "none",
+              },
+            },
+            "ref": null,
+            "rendered": "Report",
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt=""
+              id="dia"
+              src="dia.png"
+            />,
+            <div
+              id="siteName"
+            >
+              colors
+            </div>,
+          ],
+          "id": "navRight",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "id": "dia",
+              "src": "dia.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "colors",
+              "id": "siteName",
+            },
+            "ref": null,
+            "rendered": "colors",
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="tabs"
+          >
+            <div
+              className="tab"
+              data-name="form"
+              id="tab-form"
+              onClick={[Function]}
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Form
+            </div>
+            <div
+              className="tab"
+              data-name="report"
+              id="tab-report"
+              onClick={[Function]}
+              style={
+                Object {
+                  "opacity": 0.5,
+                  "pointerEvents": "none",
+                }
+              }
+            >
+              Report
+            </div>
+          </div>,
+          <div
+            id="navRight"
+          >
+            <img
+              alt=""
+              id="dia"
+              src="dia.png"
+            />
+            <div
+              id="siteName"
+            >
+              colors
+            </div>
+          </div>,
+        ],
+        "className": "Header",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="tab"
+                data-name="form"
+                id="tab-form"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Form
+              </div>,
+              <div
+                className="tab"
+                data-name="report"
+                id="tab-report"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "opacity": 0.5,
+                    "pointerEvents": "none",
+                  }
+                }
+              >
+                Report
+              </div>,
+            ],
+            "className": "tabs",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Form",
+                "className": "tab",
+                "data-name": "form",
+                "id": "tab-form",
+                "onClick": [Function],
+                "style": Object {
+                  "fontWeight": "bold",
+                },
+              },
+              "ref": null,
+              "rendered": "Form",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Report",
+                "className": "tab",
+                "data-name": "report",
+                "id": "tab-report",
+                "onClick": [Function],
+                "style": Object {
+                  "opacity": 0.5,
+                  "pointerEvents": "none",
+                },
+              },
+              "ref": null,
+              "rendered": "Report",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt=""
+                id="dia"
+                src="dia.png"
+              />,
+              <div
+                id="siteName"
+              >
+                colors
+              </div>,
+            ],
+            "id": "navRight",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "id": "dia",
+                "src": "dia.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "colors",
+                "id": "siteName",
+              },
+              "ref": null,
+              "rendered": "colors",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
 exports[`expect to render Header component 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
@@ -410,5 +824,6 @@ ShallowWrapper {
       },
     },
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;

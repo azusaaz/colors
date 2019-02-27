@@ -10,7 +10,7 @@ it('expect to render Header component',() =>{
   expect(shallow(<Header/>).length).toEqual(1);
 })
 
-it('expect to render Header component',() =>{
+it('expect to match snapshot',() =>{
 
   let testCurrentPage= 'form'
   expect(shallow(<Header currentPage={testCurrentPage}/>)).toMatchSnapshot();
@@ -19,13 +19,13 @@ it('expect to render Header component',() =>{
 
 const clickFn = jest.fn();
 
-describe('MyComponent', () => {
-  it('expect tab click call onclick', () => {
+
+it('expect tab click call onclick', () => {
     const component = shallow(<Header setCurrentPage={clickFn} />);
     const getAttribute=()=>{return 'test'}
     component
       .find('#tab-form')
       .simulate('click',{target:{getAttribute}});
     expect(clickFn).toHaveBeenCalled();
-  });
 });
+
