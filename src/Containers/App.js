@@ -38,7 +38,6 @@ class App extends Component {
   }
 
   render() {
-
     const form = this.state.currentPage ==='form'?
     <Form 
       input={this.state.input}

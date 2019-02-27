@@ -1,10 +1,11 @@
-import React from 'react';
+import React,{Component} from 'react';
 import './Form.css';
 
-const Form = ({input, colors, setInput, setColors, setCurrentPage}) => {
+export class Form extends Component {
 
     // handle form input and update state
-    let handleChange = (event) => {
+    handleChange = (event) => {
+      const {input, setInput} = this.props;
       var data = input;
 
       switch (event.target.name) {
@@ -28,7 +29,7 @@ const Form = ({input, colors, setInput, setColors, setCurrentPage}) => {
 
 
     // validate email
-    let emailValidation = (email) => {
+    emailValidation = (email) => {
 
       let message = document.getElementById("email-error");
 
@@ -44,7 +45,7 @@ const Form = ({input, colors, setInput, setColors, setCurrentPage}) => {
     }
 
     // validate phone number
-    let phoneValidation = (phone) => {
+    phoneValidation = (phone) => {
 
       let message = document.getElementById("phone-error");
 
@@ -60,7 +61,8 @@ const Form = ({input, colors, setInput, setColors, setCurrentPage}) => {
     }
 
     // validate color name
-    let colorValidation = (color) => {
+    colorValidation = (color) => {
+      const {colors} = this.props;
 
       let message = document.getElementById("color-error");
       let colorList = Object.keys(colors);
@@ -80,12 +82,13 @@ const Form = ({input, colors, setInput, setColors, setCurrentPage}) => {
     }
 
     // handle form input and update state
-    let handleSubmit = (event) => {
+    handleSubmit = (event) => {
+      const {input, colors, setColors, setCurrentPage} = this.props;
       let data = input;
 
-      let validation1 = emailValidation(data.email.trim());
-      let validation2 = phoneValidation(data.phone.trim());
-      let validation3 = colorValidation(data.color.trim());
+      let validation1 = this.emailValidation(data.email.trim());
+      let validation2 = this.phoneValidation(data.phone.trim());
+      let validation3 = this.colorValidation(data.color.trim());
        
       if (validation1 && validation2 && validation3) {
 
@@ -104,37 +107,41 @@ const Form = ({input, colors, setInput, setColors, setCurrentPage}) => {
       }
     }
 
+    render(){
+      const {input} = this.props;
+
     return (
       <div className="Form">
         <div className="form-content">
          <div className="form-field">
             <label>Email</label>
             <div>
-              <input id="email" name= "email" placeholder="ex. example@aaa.com" onChange={handleChange} autoFocus/>
+              <input id="email" name= "email" placeholder="ex. example@aaa.com" onChange={this.handleChange} autoFocus/>
               <div className="error-message" id="email-error"></div>
             </div>
          </div>
          <div className="form-field">
             <label>Phone number</label>
             <div>
-              <input id="phone" name= "phone" placeholder="ex. +1 XXX XXX XX XX" onChange={handleChange} />
+              <input id="phone" name= "phone" placeholder="ex. +1 XXX XXX XX XX" onChange={this.handleChange} />
               <div className="error-message" id="phone-error"></div>
             </div>
          </div>
          <div className="form-field">
             <label>Favorite Color</label>
             <div>
-              <input id="favorite" name= "color" placeholder="ex. BLACK" onChange={handleChange} />
+              <input id="favorite" name= "color" placeholder="ex. BLACK" onChange={this.handleChange} />
               <div className="error-message" id="color-error"></div>
             </div>
          </div>
 
          <div className="form-field" >
-          <button  type="submit" id= "submit-btn" onClick={handleSubmit} >Submit</button>
+          <button  type="submit" id= "submit-btn" onClick={this.handleSubmit} >Submit</button>
           </div>
           </div>
       </div>
     );
+    }
   };
 
 export default Form;
